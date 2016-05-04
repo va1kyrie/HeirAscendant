@@ -2,6 +2,10 @@
 @import url(font-awesome.min.css);
 @import "http://fonts.googleapis.com/css?family=Raleway:400,700";
 
+@font-face{
+	font-family: Besom;
+	src: url('../fonts/besom.ttf');
+}
 /*
 	Spatial by TEMPLATED
 	templated.co @templatedco
@@ -200,6 +204,7 @@
 
 		header.major h2 {
 			font-size: 3em;
+			font-family: Besom;
 		}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -1053,12 +1058,12 @@
 /* Banner */
 
 	#banner {
-		padding: 16em 0 13em 0;
+		padding: 12em 0 13em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../images/7.jpg");
 		background-position: center top;
 		background-size: cover;
-		line-height: 1.75;
+		line-height: 1;
 		text-align: center;
 	}
 
@@ -1067,15 +1072,16 @@
 		}
 
 		#banner h2 {
-			color: #ffffff;
+			color: #7becd5;
+			font-family: Besom;
 			display: inline-block;
-			font-size: 3.5em;
-			line-height: 1.35;
-			margin-bottom: 0.5em;
+			font-size: 12.5em;
+			line-height: 1;
+			margin-bottom: 0.05em;
 		}
 
 		#banner p {
-			color: #aaa;
+			color: #e4e0e0;
 			font-size: 1.5em;
 			margin-bottom: 1.75em;
 			text-transform: uppercase;
@@ -1103,7 +1109,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../images/banner.jpg");
+			background-image: url("images/overlay.png"), url("../images/7.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
